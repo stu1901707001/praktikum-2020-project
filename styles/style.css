@@ -1,0 +1,24 @@
+.filter-wrapper {
+    padding: 15px;
+    background-color: #3a806b;
+    border: 3px solid salmon;
+    border-radius: 5px;
+    background-color: rgb(237, 252, 177);
+}
+
+.text-container {
+    background-color: #3a806b;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px rgba(41, 102, 36, 0.15);
+    color: #ffffff;
+}
+.text-container:hover {
+    background-color: #5eb169;
+    color: #c7e9f1;
+}
+
+.text-container + .text-container {
+    margin-left: 20px;
+}
+
+
